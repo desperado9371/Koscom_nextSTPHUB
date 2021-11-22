@@ -5,6 +5,7 @@ import MixChart from '../Components/MixChart';
 import SearchForm from '../Components/SearchForm';
 import Table_example from '../Components/Table_example';
 import Timer from '../Components/Timer';
+import dgram from 'dgram';
 
 const Monitoring = () => {
   return (
@@ -27,6 +28,11 @@ const Monitoring = () => {
           <Timer />
         </Col>
       </Row>
+      <Row>
+        <Button>
+          UDP sendtest
+        </Button>
+      </Row>
 
       <Row
         className=" mt-3 ml-3"
@@ -41,10 +47,8 @@ const Monitoring = () => {
       >
         <Col sm={2}>
           <Table
-          striped
           bordered
           responsive="md"
-          hover
           size="md"
           variant="dark"
           style={{ fontSize: '0.8vw', width: '100%' }}>
@@ -66,6 +70,14 @@ const Monitoring = () => {
               <tr style={{ backgroundColor: 'red' }}>
                 <td>KRINONE</td>
                 <td>0</td>
+              </tr>
+              <tr>
+                <td>- </td>
+                <td> </td>
+              </tr>
+              <tr>
+                <td>- </td>
+                <td> </td>
               </tr>
             </tbody>
           </Table>

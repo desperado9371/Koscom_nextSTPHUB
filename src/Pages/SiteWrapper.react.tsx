@@ -70,14 +70,14 @@ class SiteWrapper extends React.Component<Props, State> {
         routerContextComponentType={withRouter(RouterContextProvider)}
         footerProps={{
           copyright: (
-            <React.Fragment>
+            <>
               Copyright © 2021
-              <a href="."> K-LINK. </a>
+              <a href="."> nextSTPHUB. </a>
               All rights reserved.
-            </React.Fragment>
+            </>
           ),
           nav: (
-            <React.Fragment>
+            <>
               <Grid.Col auto={true}>
                 <List className="list-inline list-inline-dots mb-0">
                   <List.Item className="list-inline-item">
@@ -89,7 +89,7 @@ class SiteWrapper extends React.Component<Props, State> {
                 </List>
               </Grid.Col>
               <Grid.Col auto={true}></Grid.Col>
-            </React.Fragment>
+            </>
           ),
         }}
       >
