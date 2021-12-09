@@ -40,6 +40,7 @@ const Monitoring_ndstk = () => {
     });
   };
 
+
   const resources = [40, 60, 80];
 
   const [ip, setIp] = useState('localhost');

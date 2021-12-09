@@ -1,0 +1,36 @@
+{
+  "TR": "TR_ONE",
+  "CompIdCnt": 5,
+  "CompIdList": [
+    {
+      "CompID": "KRISAMSUNG",
+      "Status": 1,
+      "Side": "B",
+      "Port": 11000
+    },
+    {
+      "CompID": "KRIFIXTEST",
+      "Status": 1,
+      "Side": "B",
+      "Port": 11100
+    },
+    {
+      "CompID": "KRSSSS",
+      "Status": 1,
+      "Side": "S",
+      "Port": 11200
+    },
+    {
+      "CompID": "KRSLG",
+      "Status": 1,
+      "Side": "S",
+      "Port": 11300
+    },
+    {
+      "CompID": "KRSTEST",
+      "Status": 1,
+      "Side": "S",
+      "Port": 12000
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
     "name": "electron-react-boilerplate",
-    "productName": "Koscom FEP Monitoring Client",
+    "productName": "Koscom nextSTP Monitoring Client",
     "description": "Electron application boilerplate based on React, React Router, Webpack, React Fast Refresh for rapid application development",
     "scripts": {
         "build": "concurrently \"yarn build:main\" \"yarn build:renderer\"",
@@ -30,7 +30,7 @@
         ]
     },
     "build": {
-        "productName": "Koscom FEP Monitoring Client",
+        "productName": "Koscom nextSTP Monitoring Client",
         "appId": "org.erb.ElectronReact",
         "files": [
             "dist/",
@@ -262,6 +262,7 @@
         "electron-store": "^7.0.2",
         "electron-updater": "^4.3.8",
         "history": "^5.0.0",
+        "iconv-lite": "^0.6.3",
         "moment": "^2.29.1",
         "namor": "^2.0.2",
         "react": "^17.0.1",

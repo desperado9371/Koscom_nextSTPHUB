@@ -79,6 +79,7 @@ const createWindow = async () => {
       nodeIntegration: true,
       //devTools: false,
       scrollBounce: true,
+      webSecurity: false,
     },
   });
 

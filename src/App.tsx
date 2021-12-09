@@ -15,7 +15,7 @@ export default function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={Login} />
+        <Route exact path="/" component={StphubMonitoring} />
         <Route exact path="/login" component={Login} />
         <Route exact path="/Home" component={Home} />
         <Route exact path="/statistic" component={Statistic} />
